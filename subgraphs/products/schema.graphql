@@ -33,7 +33,6 @@ type Product @key(fields: "id") {
   id: ID!
   title: String
   description: String
-  mediaUrl: String
   weight: Float
   price: Money
 }
